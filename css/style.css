@@ -43,10 +43,11 @@ body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
   background-color: #fff;
+  min-width: 320px;
 }
 
 .container {
-  max-width: 1158px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 
@@ -79,11 +80,12 @@ body {
   line-height: 24px;
   color: var(--iris);
   text-transform: uppercase;
+  padding: 24px 0;
 }
 
 .logo-text {
   color: var(--slate);
-  padding: 24px 0;
+  
 }
 .logo-second-text {
   color: var(--cloud);
@@ -97,6 +99,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  margin-left: 76px;
 }
 
 .menu-item {
@@ -175,7 +178,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -194,10 +196,13 @@ body {
   margin-right: auto;
   width: 496px;
   color: #fff;
+  font-family: 'Roboto';
+font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 
   /* outline: 2px solid tomato; */
 }
@@ -570,9 +575,7 @@ body {
   padding: 0;
 }
 
-.main-list .item + .item {
-  margin-left: 24px;
-}
+
 
 .icon-info {
   display: flex;
@@ -591,6 +594,8 @@ body {
 }
 
 .info-main {
+  font-family: 'Roboto';
+font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -598,6 +603,8 @@ body {
   margin-bottom: 8px;
 }
 .info-text {
+  font-family: 'Roboto';
+font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -774,7 +781,8 @@ body {
 /* footer */
 .footer {
   background-color: var(--navy-blue);
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-flex {

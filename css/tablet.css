@@ -1,0 +1,119 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    /* Mobile Section  */
+
+
+
+
+    
+    .burger-open {
+        display: none;
+    }
+
+    .burger-close {
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    /* Info Section */
+
+    .info {
+      padding-top: 96px;
+      padding-bottom: 96px;
+    }
+
+    .main-list {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 24px;
+      row-gap: 72px;
+    }
+
+    .item {
+      width: calc((100% - 24px) / 2);
+    }
+
+    .icon-info {
+      display: none;
+    }
+
+    .info-main {
+      font-weight: 700;
+      font-size: 36px;
+    }
+
+    .info-text {
+      font-weight: 500;
+    }
+
+    /* Work section unvisible */
+    .work {
+      display: none;
+    }
+
+    /* Team Section */
+    .team {
+      padding-top: 96px;
+      padding-bottom: 96px;
+    }
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 64px;
+    row-gap: 24px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  /* Customes Section */
+  .customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .customers-list {
+    width: 552px;
+
+    flex-wrap: wrap;
+
+    row-gap: 72px;
+    column-gap: 24px;
+    margin: 0 auto;
+  }
+  .custom-link {
+    width: 168px;
+    height: 88px;
+  }
+
+  /* Footer */
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .footer-flex {
+    flex-wrap: wrap;
+  }
+
+  .footer-tablet {
+    display: flex;
+    width: 565px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+  }
+
+  .footer-media {
+    margin-left: 24px;
+  }
+}
