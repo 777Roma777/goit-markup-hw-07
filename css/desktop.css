@@ -12,7 +12,6 @@
     /* outline: 2px solid teal; */
   }
 
-  
   /* Mobile Section  */
 
   .burger-open {
@@ -64,5 +63,16 @@
 
   .footer-media {
     margin-left: 120px;
+  }
+  /* Portfolio  */
+  .filter {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+  .list-content {
+    row-gap: 40px;
+  }
+  .item-con {
+    flex-basis: calc((100% - 48px) / 3);
   }
 }

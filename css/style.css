@@ -80,12 +80,10 @@ body {
   line-height: 24px;
   color: var(--iris);
   text-transform: uppercase;
-  padding: 24px 0;
 }
 
 .logo-text {
   color: var(--slate);
-  
 }
 .logo-second-text {
   color: var(--cloud);
@@ -196,8 +194,8 @@ body {
   margin-right: auto;
   width: 496px;
   color: #fff;
-  font-family: 'Roboto';
-font-style: normal;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
@@ -273,9 +271,10 @@ font-style: normal;
   background: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  margin-top: 24px;
-  margin-left: 360px;
-  margin-right: 24px;
+
+  position: absolute;
+  top: 24px;
+  right: 24px;
 }
 
 .icon-modal {
@@ -299,7 +298,7 @@ font-style: normal;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  margin-top: 24px;
+  margin-top: 72px;
   margin-bottom: 16px;
 }
 
@@ -308,9 +307,10 @@ font-style: normal;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  width: 360px;
+  max-width: 360px;
   margin-left: 24px;
   margin-right: 24px;
+  padding-bottom: 24px;
 }
 
 .form-field {
@@ -321,7 +321,6 @@ font-style: normal;
   height: 58px;
   margin-bottom: 8px;
 }
-
 
 .form-field span {
   display: block;
@@ -372,7 +371,6 @@ font-style: normal;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 8px;
-  
 
   font-family: "Roboto";
   font-style: normal;
@@ -407,7 +405,7 @@ font-style: normal;
 
 .form-policy {
   display: flex;
-  width: 360px;
+  max-width: 360px;
   align-items: center;
   justify-content: start;
   margin-top: 8px;
@@ -468,8 +466,8 @@ font-style: normal;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 169px;
-  height: 56px;
+  max-width: 169px;
+  max-height: 56px;
   padding: 16px 32px;
   background: var(--iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -477,7 +475,6 @@ font-style: normal;
   cursor: pointer;
   border: none;
   margin-top: 24px;
-  margin-bottom: 24px;
 
   transition-property: background-color;
   transition-duration: 250ms;
@@ -500,6 +497,10 @@ font-style: normal;
 .form-submit:hover,
 .form-submit:focus {
   background-color: var(--hover-ocean);
+}
+
+.form-send {
+  padding: 16px 32px;
 }
 
 .input-svg {
@@ -575,8 +576,6 @@ font-style: normal;
   padding: 0;
 }
 
-
-
 .icon-info {
   display: flex;
   align-items: center;
@@ -594,8 +593,8 @@ font-style: normal;
 }
 
 .info-main {
-  font-family: 'Roboto';
-font-style: normal;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -603,8 +602,8 @@ font-style: normal;
   margin-bottom: 8px;
 }
 .info-text {
-  font-family: 'Roboto';
-font-style: normal;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -937,10 +936,9 @@ font-style: normal;
   color: #ffffff;
 }
 
-
 .subcribe-icon {
   margin-left: 16px;
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 /* Portfolio */
@@ -951,7 +949,7 @@ font-style: normal;
 }
 
 .filter {
-  padding-top: 96px;
+  padding-top: 100px;
   padding-bottom: 120px;
 }
 
@@ -960,7 +958,7 @@ font-style: normal;
   justify-content: center;
 }
 
-.filter-list .item + .item {
+.item-list:not(:first-child) {
   margin-left: 24px;
 }
 

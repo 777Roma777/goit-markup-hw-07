@@ -1,29 +1,19 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     /* Mobile Section  */
 
-
-
-
-    
     .burger-open {
-        display: none;
+      display: none;
     }
 
     .burger-close {
-        display: none;
+      display: none;
     }
-    
-    
-    
-    
-    
-    
+
     /* Info Section */
 
     .info {
@@ -115,5 +105,25 @@
 
   .footer-media {
     margin-left: 24px;
+  }
+
+  /* Portfolio */
+  .filter {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .list-content {
+    justify-content: start;
+    row-gap: 72px;
+  }
+  .item-con {
+    display: flex;
+    justify-content: center;
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .portfolio-info {
+    width: 100%;
   }
 }

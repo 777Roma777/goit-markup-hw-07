@@ -13,14 +13,12 @@
   .flex-header {
     flex-direction: row-reverse;
     justify-content: space-between;
-    
+
     width: 428px;
     height: 70px;
     padding: 0;
     margin-left: 24px;
   }
-
-  
 
   .logo {
     width: 115px;
@@ -62,7 +60,9 @@
   }
 
   .modal {
-    width: 392px;
+    width: 95%;
+    height: auto;
+    padding: 0 18px;
   }
   /* Info Section */
   .info {
@@ -86,6 +86,7 @@
     text-align: center;
     font-weight: 700;
     font-size: 36px;
+    line-height: 40px;
   }
 
   .info-text {
@@ -155,13 +156,17 @@
 
   .footer-logo {
     display: block;
-    text-align: center;
+    margin: 0 auto;
   }
   .footer-media {
     margin: 0 auto 72px;
   }
   .media-main {
     text-align: center;
+  }
+
+  .media-list {
+    justify-content: center;
   }
 
   .subscribe-window {
@@ -172,6 +177,10 @@
     text-align: center;
   }
 
+  .form {
+    height: 100%;
+    margin: 0 auto;
+  }
   .footer-form {
     display: block;
   }
@@ -183,5 +192,41 @@
 
   .footer-button {
     margin: 0 auto;
+  }
+
+  /* Portfolio */
+
+  .filter {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .filter-list {
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 24px;
+  }
+
+  .item-list:not(:first-child) {
+    margin: 0;
+  }
+
+  .list-content {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .item-con {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .item-con:last-child {
+    margin-bottom: 0;
+  }
+
+  .list-link {
+    max-width: 396px;
+    width: 100%;
   }
 }
