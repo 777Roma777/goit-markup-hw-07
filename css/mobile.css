@@ -64,15 +64,11 @@
     height: auto;
     padding: 0 18px;
   }
-
   .modal-button {
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
+    padding: 8px;
   }
+  
+  
   /* Info Section */
   .info {
     padding-top: 96px;
