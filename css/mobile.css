@@ -68,6 +68,9 @@
     padding: 6px;
   }
 
+  .icon-modal {
+    fill: currentColor;
+  }
   
   
   /* Info Section */
