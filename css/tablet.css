@@ -2,18 +2,17 @@
   .container {
     max-width: 768px;
   }
+}
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     /* Mobile Section  */
 
-    .burger-open {
-      display: none;
-    }
+    
 
-    .burger-close {
-      display: none;
-    }
 
+    /* Hero section */
+    
+    
     /* Info Section */
 
     .info {
@@ -55,7 +54,7 @@
       padding-top: 96px;
       padding-bottom: 96px;
     }
-  }
+  
 
   .team-list {
     display: flex;
