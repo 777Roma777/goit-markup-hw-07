@@ -7,17 +7,17 @@
   }
 }
 
+  
+
+
 @media screen and (max-width: 767px) {
+  
   /* Header */
-
   .flex-header {
-    flex-direction: row-reverse;
     justify-content: space-between;
-
-    width: 428px;
-    height: 70px;
-    padding: 0;
-    margin-left: 24px;
+    max-width: 767px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 
   .logo {
@@ -31,21 +31,107 @@
   .address {
     display: none;
   }
+
   /* Mobile menu  */
-  .burger-open {
-    background: transparent;
-    border: none;
-    margin: 0;
-    padding: 0;
+  
+   
+/* 
+  .menu {
+    display: block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+  .menu-item {
+    margin-left: 0;
+  }
+  .menu-item:not(:last-child) {
+    margin-bottom: 40px;
+    
+  }
+  
+
+  .active {
+    color: var(--navy-blue);
+  }
+  .active-mobile {
+    color: var(--hover-ocean);
+  }
+  .active::after {
+    display: none;
+  }
+  .mobile-footer {
+    margin-top: auto;
   }
 
-  .mobile-menu {
-    background-color: #fff;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
+  .address {
+    text-align: center;
+    margin: 0;
+  }
+
+  .address-list {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    margin-bottom: 48px;
+  }
+
+  .address-item:not(:first-child) {
+    margin-bottom: 40px;
+  }
+  .address-link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+
+  .address-tel {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--hover-ocean);
+  }
+
+  .list-burger {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 232px;
+    height: 40px;
+    margin-top: 8px;
+  }
+
+  .mobile-contacts {
+    fill: currentColor;
+  }
+
+  .list-icons-mobile {
+    display: flex;
+    justify-content: space-evenly;
+   
+   
+    
+  
+  }  */
+  @media screen and (min-width: 430px) {
+    .address-tel {
+      font-size: 36px;
+    }
   }
   /* Hero Section */
   .hero-section {
@@ -71,8 +157,7 @@
   .icon-modal {
     fill: currentColor;
   }
-  
-  
+
   /* Info Section */
   .info {
     padding-top: 96px;

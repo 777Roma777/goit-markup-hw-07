@@ -7,21 +7,40 @@
   .flex-header {
     display: flex;
     align-items: center;
-    padding: 0;
-
+    padding-top: 24px;
+    padding-bottom: 24px;
+  
     /* outline: 2px solid teal; */
   }
 
+  .menu {
+    margin-left: 76px;
+  }
   /* Mobile Section  */
-
+  .mobile-main {
+    display: flex;
+  }
+  
   .burger-open {
     display: none;
+  }
+  .burger-menu {
+    display: block;
   }
 
   .burger-close {
     display: none;
   }
 
+  .list-icons-mobile {
+    display: none;
+  }
+
+  .mobile-footer {
+    margin-left: auto;
+  }
+  
+ 
   /* Info Section */
 
   .main-list .item + .item {

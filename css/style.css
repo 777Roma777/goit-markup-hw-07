@@ -68,6 +68,7 @@ body {
   /* outline: 2px solid teal; */
 }
 
+
 .navigation {
   display: flex;
   align-items: center;
@@ -84,9 +85,15 @@ body {
 
 .logo-text {
   color: var(--slate);
+  padding: 24px 0;
 }
 .logo-second-text {
   color: var(--cloud);
+}
+
+.burger-menu {
+  display: flex;
+  width: 100%;
 }
 
 /* /Header logo */
@@ -97,7 +104,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  margin-left: 76px;
 }
 
 .menu-item {
@@ -143,7 +149,7 @@ body {
   display: flex;
 }
 
-.address-item {
+.address-link {
   color: var(--slate);
   font-weight: 400;
   font-size: 16px;
@@ -155,8 +161,8 @@ body {
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-time);
 }
-.address-item:hover,
-.address-item:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--hover-ocean);
 }
 /* /Header address */
