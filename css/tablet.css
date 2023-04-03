@@ -37,6 +37,9 @@
     margin-left: 100px;
   }
 
+  .menu-burger {
+    display: none;
+  }
 
   /* Mobile Section  */
 

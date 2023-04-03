@@ -24,21 +24,11 @@
   .burger-open {
     display: none;
   }
-  .burger-menu {
-    display: block;
-  }
-
-  .burger-close {
+  .menu-burger {
     display: none;
   }
 
-  .list-icons-mobile {
-    display: none;
-  }
-
-  .mobile-footer {
-    margin-left: auto;
-  }
+  
   
  
   /* Info Section */

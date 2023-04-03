@@ -14,12 +14,16 @@
   
   /* Header */
   .flex-header {
-    justify-content: space-between;
-    max-width: 767px;
     padding-right: 16px;
     padding-left: 16px;
   }
-
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
   .logo {
     width: 115px;
   }
@@ -33,10 +37,73 @@
   }
 
   /* Mobile menu  */
+  .menu-burger {
+    border: none;
+    background-color: transparent;
+  }
+
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 250ms var(--cubic-time),  visibility 250ms var(--cubic-time);
+
+  }
+  
+  .backdrop.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 80px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    transition: background 250ms var(--cubic-time);
+  }
+  
+  .burger-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic-time);
+    fill: currentColor;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+
+  .burger-close:focus {
+    outline: none;
+    color: #ffffff;
+    background: var(--hover-ocean);
+  }
   
    
-/* 
-  .menu {
+
+  .menu-mobile {
     display: block;
     font-family: "Roboto";
     font-style: normal;
@@ -53,7 +120,9 @@
     margin-bottom: 40px;
     
   }
+
   
+   
 
   .active {
     color: var(--navy-blue);
@@ -64,13 +133,10 @@
   .active::after {
     display: none;
   }
-  .mobile-footer {
+  
+  
+  .address-mobile {
     margin-top: auto;
-  }
-
-  .address {
-    text-align: center;
-    margin: 0;
   }
 
   .address-list {
@@ -78,7 +144,9 @@
     flex-direction: column-reverse;
     align-items: start;
     margin-bottom: 48px;
+    
   }
+  
 
   .address-item:not(:first-child) {
     margin-bottom: 40px;
@@ -127,7 +195,10 @@
    
     
   
-  }  */
+  }  
+
+
+  /* !!!!!!!!!!!! */
   @media screen and (min-width: 430px) {
     .address-tel {
       font-size: 36px;
