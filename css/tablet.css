@@ -4,18 +4,17 @@
   }
 }
 
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   /* Header */
   .flex-header {
     padding-top: 16px;
     padding-bottom: 10px;
   }
-  
 
   .address-list {
     display: inline-block;
     margin-left: auto;
-  
   }
 
   .address-link {
@@ -44,6 +43,25 @@
   /* Mobile Section  */
 
   /* Hero section */
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tablet/hero-img-tablet.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tablet/hero-img-tablet2x.jpg);
+  }
+}
 
   /* Info Section */
 

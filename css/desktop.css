@@ -9,18 +9,19 @@
     align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
-  
+
     /* outline: 2px solid teal; */
   }
 
   .menu {
     margin-left: 76px;
   }
+
   /* Mobile Section  */
   .mobile-main {
     display: flex;
   }
-  
+
   .burger-open {
     display: none;
   }
@@ -28,9 +29,20 @@
     display: none;
   }
 
-  
-  
- 
+  /* Hero section */
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-img-desktop2x.jpg);
+  }
+}
+
   /* Info Section */
 
   .main-list .item + .item {
@@ -91,3 +103,5 @@
     display: flex;
   }
 }
+
+
