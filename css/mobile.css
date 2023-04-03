@@ -182,6 +182,9 @@
     justify-content: space-evenly;
   }
   .hero-section {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    height: auto;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -229,6 +232,8 @@
   .icon-modal {
     fill: currentColor;
   }
+
+  
 
   /* Info Section */
   .info {
