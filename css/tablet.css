@@ -2,11 +2,13 @@
   .container {
     max-width: 768px;
   }
+  
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   /* Header */
+  
   .flex-header {
     padding-top: 16px;
     padding-bottom: 10px;
@@ -62,6 +64,7 @@
       url(../images/tablet/hero-img-tablet2x.jpg);
   }
 }
+
 
   /* Info Section */
 

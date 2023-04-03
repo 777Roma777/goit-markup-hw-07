@@ -4,14 +4,7 @@
   }
 
   /* Header */
-  .flex-header {
-    display: flex;
-    align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-
-    /* outline: 2px solid teal; */
-  }
+  
 
   .menu {
     margin-left: 76px;
